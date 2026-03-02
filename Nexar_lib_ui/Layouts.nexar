@@ -1,0 +1,39 @@
+// -------------------- Layouts --------------------
+
+// Vertical column
+Column(children) {
+    layout: vertical
+    items: children
+}
+
+// Horizontal row
+Row(children) {
+    layout: horizontal
+    items: children
+}
+
+// Stack (overlapping widgets)
+Stack(children) {
+    layout: stack
+    items: children
+}
+
+// Grid
+Grid(rows, columns, children) {
+    layout: grid
+    rows: rows
+    columns: columns
+    items: children
+}
+
+// Expanded (flexible size)
+Expanded(child, flex) {
+    item: child
+    flex: flex
+}
+
+// Padding
+Padding(child, value) {
+    item: child
+    padding: value
+}
