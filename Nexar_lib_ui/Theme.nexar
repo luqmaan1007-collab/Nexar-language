@@ -1,0 +1,15 @@
+// -------------------- Theme / Colors --------------------
+
+Color(name) {
+    if name == "primary": return "#6200EE"
+    if name == "secondary": return "#03DAC6"
+    if name == "background": return "#FFFFFF"
+    if name == "text": return "#000000"
+}
+
+// Font style
+Font(name, size, weight="normal") {
+    fontName: name
+    fontSize: size
+    fontWeight: weight
+}
