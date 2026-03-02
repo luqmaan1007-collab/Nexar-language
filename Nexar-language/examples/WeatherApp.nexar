@@ -1,0 +1,14 @@
+// Simple Weather App in Nexar
+App {
+  Page {
+    Column {
+      Text("Weather Today")
+      Text("Sunny, 25°C")
+      Button(text: "Refresh", onClick: refreshWeather)
+    }
+  }
+}
+
+fn refreshWeather() {
+  print("Weather refreshed!")
+}
