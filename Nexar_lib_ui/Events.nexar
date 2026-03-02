@@ -1,0 +1,16 @@
+// -------------------- Events --------------------
+
+// onClick for Button
+Event.onClick(widget, handler) {
+    widget.onClick = handler
+}
+
+// onHover
+Event.onHover(widget, handler) {
+    widget.onHover = handler
+}
+
+// onChange for TextField, Slider, Switch
+Event.onChange(widget, handler) {
+    widget.onChanged = handler
+}
