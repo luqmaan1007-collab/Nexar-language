@@ -1,0 +1,42 @@
+// -------------------- Widgets --------------------
+
+// Button widget
+Button(label) {
+    text: label
+    onClick: null
+}
+
+// Label / Text widget
+Label(text) {
+    text: text
+}
+
+// Icon widget
+Icon(name) {
+    icon: name
+}
+
+// Image widget
+Image(src) {
+    source: src
+}
+
+// TextField
+TextField(hint) {
+    placeholder: hint
+    onChanged: null
+}
+
+// Switch / Toggle
+Switch(value) {
+    isOn: value
+    onChanged: null
+}
+
+// Slider
+Slider(min, max, value) {
+    minValue: min
+    maxValue: max
+    currentValue: value
+    onChanged: null
+}
